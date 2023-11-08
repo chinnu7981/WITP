@@ -10,10 +10,120 @@ body {
   overflow-x: hidden;
   box-sizing: border-box;
   scroll-behavior: smooth;
-  background: url(./3242971.jpg) fixed;
+  background: url(../WITP/blue-wooden-textured-flooring-background.jpg) fixed;
   background-size: max(100vh, 100vw) max(100vh, 100vw);
 }
+/*route map*/
+.routmap {
+  /* background: #232931; */
+  width: 540px;
+  margin: 0 auto;
+  position: relative;
+  margin-top: 10%;
+  /* box-shadow: 2px 5px 20px rgba(119, 119, 119, 0.5); */
+}
+#back-top {
+  background: #c86fff;
+  height: 50px;
+  width: 50px;
+  right: 31px;
+  bottom: 18px;
+  position: fixed;
+  color: #fff;
+  font-size: 20px;
+  text-align: center;
+  border-radius: 50%;
+  line-height: 48px;
+  border: 2px solid transparent;
+  box-shadow: 0 0 10px 3px rgba(108, 98, 98, 0.2);
+}
+.leftbox {
+  top: -5%;
+  left: 5%;
+  position: absolute;
+  width: 15%;
+  height: 110%;
+  background-color: rgb(30, 203, 225);
+  box-shadow: 3px 3px 15px rgba(119, 119, 119, 0.5);
+}
+#aboutpage {
+  transform: translateX(-2vw);
+}
+nav {
+  margin: 2.6em auto;
+}
 
+nav a {
+  list-style: none;
+  padding: 35px;
+  color: #232931;
+  font-size: 1.1em;
+  display: block;
+  transition: all 0.5s ease-in-out;
+}
+
+.rightbox {
+  padding: 0em 34rem 0em 0em;
+  height: 100%;
+}
+
+.rb-container {
+  font-family: "PT Sans", sans-serif;
+  width: 50%;
+  margin: auto;
+  display: block;
+  position: relative;
+}
+
+.rb-container ul.rb {
+  margin: 2.5em 0;
+  padding: 0;
+  display: inline-block;
+  width: 80vw;
+}
+
+.rb-container ul.rb li {
+  list-style: none;
+  margin: auto;
+  margin-left: 5em;
+  min-height: 50px;
+  border-left: 1px dashed #fff;
+  padding: 0 0 50px 30px;
+  position: relative;
+}
+
+.rb-container ul.rb li:last-child {
+  border-left: 0;
+}
+
+.rb-container ul.rb li::before {
+  position: absolute;
+  left: -10px;
+  top: -5px;
+  content: " ";
+  border: 8px solid rgba(255, 255, 255, 1);
+  border-radius: 500%;
+  background: rgb(30, 203, 225);
+  height: 20px;
+  width: 20px;
+  transition: all 500ms ease-in-out;
+}
+
+.rb-container ul.rb li:hover::before {
+  border-color: #232931;
+  transition: all 1000ms ease-in-out;
+}
+
+ul.rb li .timestamp {
+  color: rgb(30, 203, 225);
+  position: relative;
+  font-size: max(2.5vh, 2.5vw);
+}
+
+.item-title {
+  color: #fff;
+  font-size: max(2.2vh, 2vw);
+}
 /*css for all headings*/
 .contact-title {
   font-size: 50vw;
@@ -64,7 +174,6 @@ body {
 }
 .container1 .main-heading h1 {
   color: white;
-  font-family: "Main Heading";
   font-size: max(3.5vw, 3.5vh);
   width: 100%;
   text-align: center;
@@ -76,12 +185,17 @@ body {
 }
 #about,
 #learn {
+  text-align: justify;
   margin-top: 4%;
   background-color: rgba(128, 128, 128, 0.301);
   border-radius: 10px;
   width: 80vw;
   font-size: 1.5rem;
-  font-family: "Content";
+  font-family: "PT Sans", sans-serif;
+}
+#syllabus {
+  transform: translateX(-8vw);
+  font-size: 5px;
 }
 @media only screen and (max-width: 767px) {
   #about,

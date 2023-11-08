@@ -45,18 +45,44 @@
   </div>
   <!-- Preloader Start -->
   <!-- Header Start -->
+  <nav class="navbar navbar-expand-lg position-fixed"
+    style="z-index: 99;background: linear-gradient(#626FF4,#10141D 200%);width: 105vw;height: 100px;top: 0;">
+    <div style="display: flex;">
+      <div class="col-xl-2 col-lg-2">
+        <div class="logo">
+          <a href="https://www.wissenaire.org/" target="_blank"><img src="./Wissenaire-logo green.png" height="100px"
+              width="auto" alt="" /></a>
+        </div>
+      </div>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation" style="height: 75px;@media screen and (max-width:1000px) {
+          display: none;
+        }">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    </div>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown" style="@media screen and (max-width:1000px) {
+      display: none;
+    }">
+      <ul class="navbar-nav" style="width: 70vw; display: flex;justify-content: end;">
+        <li class="nav-item">
+          <a class="nav-link" href="#crses" style="font-size: max(3vh,2vw); margin:0 2.5vw ;">Courses</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#rew" style="font-size: max(3vh,2vw);margin:0  2.5vw ;">Rewards</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#cnts" style="font-size: max(3vh,2vw);margin:0 2.5vw ;">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
   <div class="header-area header-transparent">
     <div class="main-header ">
       <div class="header-bottom header-sticky">
         <div class="container-fluid">
           <div class="row align-items-center">
             <!-- Logo -->
-            <div class="col-xl-2 col-lg-2">
-              <div class="logo">
-                <a href="https://www.wissenaire.org/" target="_blank"><img src="assets/img/logo/loader.png"
-                    height="130px" width="100px" alt="" /></a>
-              </div>
-            </div>
             <div class="col-xl-10 col-lg-10">
               <div class="menu-wrapper d-flex align-items-center justify-content-end">
                 <!-- Main-menu -->
@@ -85,13 +111,10 @@
             <div class="row">
               <div class="col-xl-12 col-lg-12 col-md-12">
                 <div class="hero__caption hero__caption2">
-                  <h1 data-animation="bounceIn" data-delay="0.2s">Winter Internship Training Program</h1>
-                  <p class="txt">TAKEA STEP FORWARD AND BOOST YOUR CAREER BY JOINING THIS PROGRAM</p>
+                  <h1 data-animation="bounceIn" data-delay="0.2s">Winter Internship and Training Program</h1>
+                  <p class="txt">TAKE A STEP FORWARD AND BOOST YOUR CAREER BY JOINING THIS PROGRAM</p>
                   <p class="txt2">WITH HANDS ON EXPOSURE TO
                     REALTIME PROJECTS</p>
-                  <!-- breadcrumb Start-->
-
-                  <!-- breadcrumb End -->
                 </div>
               </div>
             </div>
@@ -100,7 +123,7 @@
       </div>
     </section>
     <!-- Courses area start -->
-    <div class="courses-area section-padding40 fix" style="background: url(./img/6202241.jpg);">
+    <div class="courses-area section-padding40 fix" style="background: url(./img/6202241.jpg);" id="crses">
       <div class="container">
         <div class="row justify-content-center">
           <div class="col-xl-7 col-lg-8">
@@ -141,7 +164,6 @@
                                         </div>
                                         -->
                     <div class="price">
-                      <span>3499/-</span>
                     </div>
                   </div>
                   <a href="./WITP/1.MachineLearning.html" target="_blank" class="border-btn border-btn2">Find out
@@ -183,7 +205,6 @@
                                         </div>
                                         -->
                     <div class="price">
-                      <span>3499/-</span>
                     </div>
                   </div>
                   <a href="./WITP/3.Ethical_Hacking_and_Cyber_Security.html" target="_blank"
@@ -223,7 +244,6 @@
                                         </div>
                                         -->
                     <div class="price">
-                      <span>3499/-</span>
                     </div>
                   </div>
                   <a href="./WITP/5.Full_Stack_Web_Dev.html" target="_blank" class="border-btn border-btn2">Find out
@@ -242,7 +262,6 @@
                   <h3>
                     <a href="./WITP/4.Embeded_Robotics.html" target="_blank">Embedded systems with robotics and IoT</a>
                   </h3>
-
                   <p>
                     Embedded systems in IoT devices serve as the interface
                     between the physical and digital worlds. They collect data
@@ -265,7 +284,6 @@
                                         </div>
                                         -->
                     <div class="price">
-                      <span>3499/-</span>
                     </div>
                   </div>
                   <a href="./WITP/4.Embeded_Robotics.html" target="_blank" class="border-btn border-btn2">Find out
@@ -307,7 +325,6 @@
                                         </div>
                                         -->
                     <div class="price">
-                      <span>3499/-</span>
                     </div>
                   </div>
                   <a href="./WITP/6.Product_development.html" target="_blank" class="border-btn border-btn2">Find out
@@ -350,7 +367,6 @@
                                         </div>
                                         -->
                     <div class="price">
-                      <span>3499/-</span>
                     </div>
                   </div>
                   <a href="./WITP/2.Digital-Marketing.html" target="_blank" class="border-btn border-btn2">Find out
@@ -491,7 +507,7 @@
         </div> -->
     <!-- top subjects End -->
     <!-- ? services-area -->
-    <div class="services-area services-area2 section-padding40">
+    <div class="services-area services-area2 section-padding40" id="rew">
       <div class="container" style="text-align: center">
         <div class="heading">
           <h1 style="margin-bottom: 50px; font-size: 42px; font-weight: 800">
@@ -530,19 +546,6 @@
               <div class="features-caption">
                 <h3>
                   Free Summer Internship training program ( Merit based)
-                </h3>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6 col-sm-8">
-            <div class="single-services mb-30" style="align-items: center; justify-content: center">
-              <div class="features-icon">
-                <img src="assets/img/icon/circle-play-svgrepo-com.svg" width="50px" height="50px"
-                  style="margin-top: -20px;filter: invert(1);" alt="" />
-              </div>
-              <div class="features-caption">
-                <h3>
-                  Life time access to Video recordings and reading materials
                 </h3>
               </div>
             </div>
@@ -591,7 +594,7 @@
       </div>
     </div>
   </main>
-  <section>
+  <section id="cnts">
     <div class="contact" style="
           align-items: center;
           justify-content: center;
@@ -616,16 +619,16 @@
       </div>
       <div class="footer-social" style="margin-bottom: 30px">
         <a href="https://twitter.com/i/flow/login?redirect_after_login=%2Fwissiitbbs" target="_blank"><i
-            class="fab fa-twitter"></i></a>
+            class="fa-brands fa-x-twitter" style="color: white;height: 10px;aspect-ratio: 1/1;"><img
+              src="./Screenshot_2023-09-24_221302.png" alt=""
+              style="color: white;height: 20px;aspect-ratio: 1/1;"></i></a>
         <a href="https://www.facebook.com/wissenaireiitbbs/" target="_blank"><i class="fab fa-facebook-f"></i></a>
         <a href="https://www.instagram.com/wissenaire.iitbbs/" target="_blank"><i class="fab fa-instagram"></i></a>
         <a href="https://www.linkedin.com/company/wissenaire-iit-bhubaneswar/" target="_blank"><i
             class="fab fa-linkedin"></i></a>
       </div>
       <p>
-        <a href="./assets/REFUND POLICY .pdf" target="_blank" style="color: #4852B1;">
-          Terms and Condition
-        </a>
+        Terms and Condition Appply
       </p>
       <p1 style="margin-bottom: 5vh; font-size: 20px; color: white">
         © 2023 All Rights Reserved By Wissenaire
