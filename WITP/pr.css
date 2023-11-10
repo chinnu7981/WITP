@@ -135,7 +135,7 @@ ul.rb li .timestamp {
 /*common things for all sections*/
 #aboutpage,
 #learnpage,
-#js,
+#js,#roadmap,
 #pb,
 #syllabuspage,
 #op,
@@ -225,13 +225,16 @@ ul.rb li .timestamp {
   transition: all 0.3s;
   position: relative;
   font-family: "Content";
+  @media only screen and (min-width: 1000px) {
+    margin-left: 0;
+  }
 }
 #btn .reg:active {
   color: rgb(30, 203, 225);
 }
 #btn .down {
   position: relative;
-  width: 149px;
+  width: 144px;
   height: 58px;
   cursor: pointer;
   display: flex;
@@ -545,7 +548,7 @@ ul.rb li .timestamp {
 }
 #op .img-fluid img {
   @media only screen and (max-width: 767px) {
-    width: 300px;
+    width: 286px;
     height: 100px;
   }
 }
@@ -559,6 +562,9 @@ ul.rb li .timestamp {
   font-size: 100;
   text-decoration: none;
   color: rgba(30, 203, 225, 0.4);
+}
+#contact .title a:hover {
+  color: rgb(30, 203, 225);
 }
 #contact .contact-item {
   align-items: center;
