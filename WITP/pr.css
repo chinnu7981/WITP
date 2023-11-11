@@ -561,8 +561,9 @@ ul.rb li .timestamp {
   /*or gap between heading and contents*/
   padding-top: 4%;
   padding-left: 7%;
-  @media only screen and (max-width: 767px) {
-    padding-bottom: 4%;
+  @media only screen and (max-width: 1000px) {
+    max-width: 70vw;
+    transform: translateX(-5vw);
   }
 }
 #op .img-fluid img {
