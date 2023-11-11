@@ -22,6 +22,21 @@ body {
   margin-top: 10%;
   /* box-shadow: 2px 5px 20px rgba(119, 119, 119, 0.5); */
 }
+#learnpage {
+  @media screen and (max-width: 1000px) {
+    transform: translateX(-10px);
+  }
+}
+#h2j {
+  @media screen and (min-width: 1000px) {
+    transform: translateX(-15vw);
+  }
+}
+#btn {
+  @media screen and (max-width: 1000px) {
+    transform: translateX(-5vw);
+  }
+}
 #back-top {
   background: #c86fff;
   height: 50px;
@@ -135,7 +150,8 @@ ul.rb li .timestamp {
 /*common things for all sections*/
 #aboutpage,
 #learnpage,
-#js,#roadmap,
+#js,
+#roadmap,
 #pb,
 #syllabuspage,
 #op,
@@ -341,13 +357,16 @@ ul.rb li .timestamp {
 #js .wrappera {
   position: relative;
   width: 80vw;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, 0%);
   top: 50%;
   left: 50%;
   display: flex;
   justify-content: space-around;
   gap: 10px;
   font-family: "Content";
+  @media screen and (max-width: 1000px) {
+    transform: translate(-57.5%,-15%);
+  }
 }
 #js .containera {
   width: 28vmin;
