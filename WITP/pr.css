@@ -76,6 +76,9 @@ nav a {
 .rightbox {
   padding: 0em 34rem 0em 0em;
   height: 100%;
+  @media screen and (max-width:1000px) {
+    transform: translateX(-10vw);
+  }
 }
 
 .rb-container {
