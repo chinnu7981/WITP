@@ -60,6 +60,10 @@ body {
 #aboutpage {
   transform: translateX(-2vw);
 }
+#discount {
+  transform: translateX(-2vw);
+}
+
 nav {
   margin: 2.6em auto;
 }
@@ -148,6 +152,7 @@ ul.rb li .timestamp {
 
 /*common things for all sections*/
 #aboutpage,
+#discount,
 #learnpage,
 #js,
 #roadmap,
